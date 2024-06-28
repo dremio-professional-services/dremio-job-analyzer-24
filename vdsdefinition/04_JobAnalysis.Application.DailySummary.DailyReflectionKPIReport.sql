@@ -1,4 +1,4 @@
-create VDS JobAnalysis.Application.DailySummary.DailyReflectionKPIReport as 
+create or replace VDS JobAnalysis.Application.DailySummary.DailyReflectionKPIReport as 
 
 WITH DailyReflectionbyOutcome as (
     select *,COMPLETED+FAILED+CANCELED as TOTAL from (
