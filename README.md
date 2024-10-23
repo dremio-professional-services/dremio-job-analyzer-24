@@ -1,7 +1,7 @@
 # Dremio Job Analyzer - VDS Creator
 Job Analyzer is a package of VDS definitions which can be created over the sys.jobs_recent system table to analyze the jobs that have been processed in Dremio Software.
 
-## Usage
+## Installation
 On the command line, navigate to /path_to_dremio-job-analyzer-24/src.
 
 Execute the following command:
