@@ -25,6 +25,7 @@ under open catalog create the ```JobHistory``` folder
 then run this query.
 
 ```
+create table OpenCatalog.JobHistory.jobs as 
 select current_timestamp() rec_insert_ts,*
 From sys.jobs_recent where final_state_ts > '1970-01-01'
 ```
