@@ -36,7 +36,7 @@ SELECT
     queue_name AS queueName,
     engine AS engineName,
     CONVERT_FROM('[]', 'JSON') AS executionNodes,
-    memory_allocated as memoryAllocated,
+    memory_allocated AS memoryAllocated,
     error_msg AS outcomeReason,
     query AS queryText,
     CAST(NULL AS VARCHAR) AS nrQueryChunks,
